@@ -38,54 +38,52 @@ public class Person {
         setAliveOrNot(isAlive);
     }
 
-    public boolean setAliveOrNot(boolean isAlive) {
-        return this.isAlive = isAlive;
+    public void setAliveOrNot(boolean isAlive) { this.isAlive = isAlive;}
+
+    public void setNumberOfKisses(int numberOfKisses) {
+        this.numberOfKisses = numberOfKisses;
     }
 
-    public int setNumberOfKisses(int numberOfKisses) {
-        return this.numberOfKisses = numberOfKisses;
+    public void setHeightInInch(int heightInInch) {
+        this.heightInInch= heightInInch;
     }
 
-    public int setHeightInInch(int heightInInch) {
-        return this.heightInInch= heightInInch;
+    public void setName(String name) {
+        this.name =name;
     }
-
-    public String setName(String name) {
-        return this.name =name;
+    public void setMiddleName(String middleName) {
+        this.middleName = middleName;
     }
-    public String setMiddleName(String middleName) {
-        return this.middleName = middleName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
-    public String setLastName(String lastName) {
-        return this.lastName = lastName;
-    }
-    public int setAge(int age) {
-        return this.age = age;
+    public void setAge(int age) {
+        this.age = age;
     }
     public String getName() {
-        return new String(name);
+        return name;
     }
 
     public String getMiddleName(){
-        return new String(middleName);
+        return middleName;
     }
 
     public String getLastName(){
-        return new String(lastName);
+        return lastName;
     }
 
     public Integer getAge() {
-        return new Integer(age);
+        return age;
     }
     public Integer getHeightInInch(){
-        return new Integer(heightInInch);
+        return heightInInch;
     }
 
     public Integer getNumberOfKisses(){
-        return new Integer(numberOfKisses);
+        return numberOfKisses;
     }
     public Boolean getIsAlive(){
-        return new Boolean(isAlive);
+        return isAlive;
     }
 }
 
